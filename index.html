@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechServices | Servicios tecnologicos</title>
+
+    <meta name="theme-color" content="#175cd3">
+    <meta name="description" content="AWP TechServices">
+
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="img/icons/icon-192.png">
+
+    <link rel="stylesheet" href="lib/fontawesome/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="encabezado">
+        <div class="contenedor encabezado-contenido">
+            <div class="marca">
+                <img src="img/logo.svg" alt="logotipo" class="logo">
+                <div>
+                    <h1>TechServices</h1>
+                    <p>Soluciones tecnologicas para todo</p>
+                </div>
+            </div>
+            <nav class="menu">
+                <a href="#inicio">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#contacto">Contacto</a>
+
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="inicio" class="hero">
+            <div class="contenedor hero-contenido">
+                <div class="hero-texto">
+                    <span class="etiqueta">Servicios tecnologicos</span>
+                    <h2>Tecnologia sencillas para pequeñas empresas</h2>
+                    <p>se ofrecen sevicios de matenimiento y desarrollo web para empresas pequeñas.</p>
+                    <a href="#servicios" class="boton boton-principal">Conocer servicios</a>
+                </div>
+                <div class="hero-imagenes">
+                    <div class="tarjeta-destacada">
+                        <i class="fa-solid fa-laptop-code icono-grande"></i>
+                        <h3>Soluciones digitales</h3>
+                        <p>Atencion, soport y desarrollo de soluciones tecnologicas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="servicios" class="seccion">
+            <div class="contenedor">
+                <div class="titulo-seccion">
+                    <span>Nuestros servicios</span>
+                    <h2>Como podemos ayudarte</h2>
+                    <p>se brindan diferentes soluciones de acuerdo a la necesidades del cliente</p>
+                </div>
+                <div class="servicios-grid">
+                    <article class="tarjeta-servicio">
+                        <div class="icono-servicio">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                        </div>
+                        <h3>Mantenimiento</h3>
+                        <p>Mantenimiento preventivo y correctivo de equipos de computo</p>
+                        <ul>
+                            <li>Limpieza de equipos</li>
+                            <li>Optimizacion del sistema</li>
+                            <li>Revision de componetes</li>                            
+                        </ul>
+                    </article>
+                    <article class="tarjeta-servicio">
+                        <div class="icono-servicio">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3>Desarrollo web</h3>
+                        <p>Creacion de sitios y sitemas web adaptados a diferentes dipositivos</p>
+                        <ul>
+                            <li>sitios responsivos</li>
+                            <li>sistemas administrativos</li>
+                            <li>Interfaces amigables</li>                            
+                        </ul>
+                    </article>
+                    <article class="tarjeta-servicio">
+                        <div class="icono-servicio">
+                            <i class="fa-solid fa-headset"></i>
+                        </div>
+                        <h3>Soporte tecnico</h3>
+                        <p>Asistencia tecnica para resolver problemas comunes de hardware y software</p>
+                        <ul>
+                            <li>configuracion de equipos</li>
+                            <li>instalacion de software</li>
+                            <li>Asesoria tecnologica</li>                            
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="seccion seccion-secundaria">
+            <div class="contenedor">
+                <div class="informacion-grid">
+                    <div>
+                        <span class="etiqueta">Aplicacion web</span>
+                        <h2>Un proyecto preparado para evolucionar</h2>
+                        <p>Desarrollo tradicional con HTML, CSS Y JS</p>
+                        <p>mas adelante se agregan diferentes tecnologias para una conversion a PWA</p>
+                    </div>
+                    <div class="panel-caracteristicas">
+                        <div class="caracteristica">
+                            <span><i class="fa-solid fa-check"></i></span>
+                            <div>
+                                <strong>Responsive</strong>
+                                <p>Adaptable a diferentes pantallas</p>
+                            </div>
+                        </div>
+                        <div class="caracteristica">
+                            <span><i class="fa-solid fa-check"></i></span>
+                            <div>
+                                <strong>Multiplataforma</strong>
+                                <p>Para ejecutar desde diferentes navegadores</p>
+                            </div>
+                        </div>
+                        <div class="caracteristica">
+                            <span><i class="fa-solid fa-check"></i></span>
+                            <div>
+                                <strong>Preparado para PWA</strong>
+                                <p>Se podra agregar mas adelante funsiones de PWA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacto" class="seccion">
+            <div class="contenedor">
+                <div class="contacto">
+                    <div>
+                        <span class="etiqueta">Contacto</span>
+                        <h2>¿Necesitas ayuda?</h2>
+                        <p>Seleccionar el boton para solicitar informacion sobre los servicios</p>
+                    </div>
+                    <div class="acciones-contacto">
+                        <button type="button" id="btnContacto" class="boton boton-principal">
+                            <i class="fa-solid fa-envelope"></i>
+                            Solicitar Informacion
+                        </button>
+                        <button type="button" id="btnInstalar" class="boton boton-instalar" hidden>
+                            <i class="fa-solid fa-download"></i>Instalar aplicacion
+                        </button>
+                        <p id="estadoInstalacion" class="estado-Instalacion" aria-live="polite"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="pie">
+        <div class="contenedor pie-contenedor">
+            <p>TechServices</p>
+            <p>Practica PWA</p>
+            <p id="anio"></p>
+        </div>
+    </footer>
+
+    <div id="modalContacto" class="modal">
+        <div class="modal-contenido">
+            <button type="button" id="cerrarModal" class="cerrar-modal" aria-label="Cerrar">&times;</button>
+
+            <div class="modal-icono">
+                <i class="fa-solid fa-envelope-open-text"></i>
+            </div>
+            <h2>Solicitud de informacion:</h2>
+            <p>Gracias por su interes en nuestro servicios.</p>
+            
+            <button type="button" id="aceptarModal" class="boton boton-principal">
+                <i class="fa-solid fa-check"></i>Aceptar
+            </button>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
